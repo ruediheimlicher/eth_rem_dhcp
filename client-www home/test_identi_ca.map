@@ -1,0 +1,740 @@
+Archive member included because of file (symbol)
+
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o (exit)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                              test_identi_ca.o (__do_copy_data)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                              test_identi_ca.o (__do_clear_bss)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+                              test_identi_ca.o (__prologue_saves__)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+                              test_identi_ca.o (__epilogue_restores__)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(atoi.o)
+                              websrv_help_functions.o (atoi)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalnum.o)
+                              websrv_help_functions.o (isalnum)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalnum.o) (__ctype_isfalse)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalpha.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalnum.o) (isalpha)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isblank.o)
+                              ip_arp_udp_tcp.o (isblank)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+                              ip_arp_udp_tcp.o (memcmp)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strcat.o)
+                              test_identi_ca.o (strcat)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncmp.o)
+                              test_identi_ca.o (strncmp)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+                              websrv_help_functions.o (__itoa)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+                              test_identi_ca.o (__itoa_ncheck)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mul10.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(atoi.o) (__mulhi_const_10)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o) (__utoa_common)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o) (strrev)
+
+Allocating common symbols
+Common symbol       size              file
+
+client_arp_result_callback
+                    0x2               ip_arp_udp_tcp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+LOAD test_identi_ca.o
+LOAD ip_arp_udp_tcp.o
+LOAD enc28j60.o
+LOAD websrv_help_functions.o
+LOAD dnslkup.o
+START GROUP
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x25da
+ *(.vectors)
+ .vectors       0x00000000       0x68 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data  0x00000068      0x2fd test_identi_ca.o
+ .progmem.data  0x00000365       0xdc ip_arp_udp_tcp.o
+                0x00000430                arpreqhdr
+                0x00000438                iphdr
+                0x00000442                . = ALIGN (0x2)
+ *fill*         0x00000441        0x1 
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000442                __ctors_start = .
+ *(.ctors)
+                0x00000442                __ctors_end = .
+                0x00000442                __dtors_start = .
+ *(.dtors)
+                0x00000442                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000442        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000442                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000442        0xc /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000044e       0x16 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x0000044e                __do_copy_data
+ .init4         0x00000464       0x10 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x00000464                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000474        0x8 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x0000047c        0x4 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+                0x0000047c                __vector_20
+                0x0000047c                __vector_1
+                0x0000047c                __vector_24
+                0x0000047c                __vector_12
+                0x0000047c                __bad_interrupt
+                0x0000047c                __vector_6
+                0x0000047c                __vector_3
+                0x0000047c                __vector_23
+                0x0000047c                __vector_25
+                0x0000047c                __vector_11
+                0x0000047c                __vector_13
+                0x0000047c                __vector_17
+                0x0000047c                __vector_19
+                0x0000047c                __vector_5
+                0x0000047c                __vector_4
+                0x0000047c                __vector_9
+                0x0000047c                __vector_2
+                0x0000047c                __vector_21
+                0x0000047c                __vector_15
+                0x0000047c                __vector_8
+                0x0000047c                __vector_14
+                0x0000047c                __vector_10
+                0x0000047c                __vector_16
+                0x0000047c                __vector_18
+                0x0000047c                __vector_22
+ .text          0x00000480      0x394 test_identi_ca.o
+                0x00000480                arpresolver_result_callback
+                0x00000498                verify_password
+                0x000004c2                analyse_get_url
+                0x00000534                http200ok
+                0x00000546                print_webpage
+                0x000006e0                init_cnt2
+                0x0000070a                __vector_7
+                0x00000746                store_date_if_found
+                0x000007e8                browserresult_callback
+ .text          0x00000814      0xf92 ip_arp_udp_tcp.o
+                0x00000814                www_client_internal_result_callback
+                0x000008ca                checksum
+                0x00000984                init_mac
+                0x0000099a                client_ifconfig
+                0x000009ce                route_via_gw
+                0x000009fe                check_ip_message_is_from
+                0x00000a1c                eth_type_is_arp_and_my_ip
+                0x00000a50                eth_type_is_ip_and_my_ip
+                0x00000a88                make_eth
+                0x00000aae                fill_ip_hdr_checksum
+                0x00000ad8                make_ip
+                0x00000b02                step_seq
+                0x00000b2c                make_tcphead
+                0x00000b56                make_arp_answer_from_request
+                0x00000bbe                make_echo_reply_from_request
+                0x00000bf8                get_tcp_data_len
+                0x00000c22                fill_tcp_data_p
+                0x00000c46                fill_tcp_data_len
+                0x00000c64                fill_tcp_data
+                0x00000c7c                www_client_internal_datafill_callback
+                0x00000de4                make_tcp_ack_from_any
+                0x00000e5c                make_tcp_ack_with_data_noflags
+                0x00000ea2                init_udp_or_www_server
+                0x00000ec8                www_server_port
+                0x00000ed2                make_tcp_synack_from_syn
+                0x00000f44                www_server_reply
+                0x00000f74                fill_buf_p
+                0x00000f90                send_udp_prepare
+                0x00001064                send_udp_transmit
+                0x000010ae                send_udp
+                0x00001100                client_arp_whohas
+                0x000011b0                get_mac_with_arp_wait
+                0x000011be                get_mac_with_arp
+                0x000011e6                tcp_client_syn
+                0x000012ea                client_tcp_req
+                0x0000134e                client_browse_url
+                0x000013b2                client_http_post
+                0x00001426                register_ping_rec_callback
+                0x00001430                packetloop_arp_icmp_tcp
+ .text          0x000017a6      0x4b0 enc28j60.o
+                0x000017a6                enc28j60ReadOp
+                0x000017d2                enc28j60WriteOp
+                0x000017ec                enc28j60ReadBuffer
+                0x00001818                enc28j60WriteBuffer
+                0x00001842                enc28j60SetBank
+                0x00001886                enc28j60Read
+                0x000018aa                enc28j60Write
+                0x000018d0                enc28j60PhyRead
+                0x00001914                enc28j60PhyWrite
+                0x0000195a                enc28j60clkout
+                0x00001966                enc28j60Init
+                0x00001ab4                enc28j60getrev
+                0x00001ac2                enc28j60linkup
+                0x00001ad0                enc28j60PacketSend
+                0x00001b62                enc28j60hasRxPkt
+                0x00001b74                enc28j60PacketReceive
+ .text          0x00001c56      0x2ee websrv_help_functions.o
+                0x00001c56                find_key_val
+                0x00001ce6                h2int
+                0x00001d0e                urldecode
+                0x00001d6a                int2h
+                0x00001d90                urlencode
+                0x00001e12                parse_ip
+                0x00001ebe                mk_net_str
+ .text          0x00001f44      0x248 dnslkup.o
+                0x00001f44                dnslkup_haveanswer
+                0x00001f4a                dnslkup_get_error_info
+                0x00001f50                dnslkup_get_ip
+                0x00001f66                string_is_ipv4
+                0x00001fa4                dnslkup_request
+                0x000020aa                udp_client_check_for_dns_answer
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(atoi.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalnum.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalpha.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isblank.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strcat.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncmp.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mul10.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .text          0x0000218c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+                0x0000218c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x0000218c      0x28e test_identi_ca.o
+                0x0000218c                main
+ .text.libgcc.mul
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x0000241a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x0000241a       0x38 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+                0x0000241a                __prologue_saves__
+ .text.libgcc.builtins
+                0x00002452        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00002452        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00002452        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00002452        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00002452        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x00002452        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x00002452       0x36 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+                0x00002452                __epilogue_restores__
+ .text.libgcc.builtins
+                0x00002488        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00002488        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00002488        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ .text.avr-libc
+                0x00002488       0x3c /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(atoi.o)
+                0x00002488                atoi
+ .text.avr-libc
+                0x000024c4       0x10 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalnum.o)
+                0x000024c4                isalnum
+ .text.avr-libc
+                0x000024d4        0x6 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                0x000024d4                __ctype_isfalse
+                0x000024d8                __ctype_istrue
+ .text.avr-libc
+                0x000024da       0x12 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalpha.o)
+                0x000024da                isupper
+                0x000024de                isalpha
+                0x000024e0                islower
+ .text.avr-libc
+                0x000024ec        0xe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isblank.o)
+                0x000024ec                isblank
+ .text.avr-libc
+                0x000024fa       0x1a /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+                0x000024fa                memcmp
+ .text.avr-libc
+                0x00002514       0x16 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strcat.o)
+                0x00002514                strcat
+ .text.avr-libc
+                0x0000252a       0x1c /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncmp.o)
+                0x0000252a                strncmp
+ .text.avr-libc
+                0x00002546       0x16 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+                0x00002546                itoa
+                0x00002546                __itoa
+ .text.avr-libc
+                0x0000255c       0x16 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+                0x0000255c                __itoa_ncheck
+ .text.avr-libc
+                0x00002572       0x10 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mul10.o)
+                0x00002572                __mulhi_const_10
+ .text.avr-libc
+                0x00002582       0x34 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                0x00002582                __utoa_ncheck
+                0x00002584                __utoa_common
+ .text.avr-libc
+                0x000025b6       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+                0x000025b6                strrev
+                0x000025d6                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000025d6        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x000025d6                exit
+                0x000025d6                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000025d6        0x4 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x000025da                _etext = .
+
+.data           0x00800100       0x86 load address 0x000025da
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100       0x33 test_identi_ca.o
+ .data          0x00800133        0xa ip_arp_udp_tcp.o
+ .data          0x0080013d        0x0 enc28j60.o
+ .data          0x0080013d        0x0 websrv_help_functions.o
+ .data          0x0080013d        0x4 dnslkup.o
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(atoi.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalnum.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalpha.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isblank.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strcat.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncmp.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mul10.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .data          0x00800141        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800141       0x44 test_identi_ca.o
+                                 0x45 (size before relaxing)
+ *(.gnu.linkonce.d*)
+                0x00800186                . = ALIGN (0x2)
+ *fill*         0x00800185        0x1 
+                0x00800186                _edata = .
+                0x00800186                PROVIDE (__data_end, .)
+
+.bss            0x00800186      0x2e2
+                0x00800186                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800186        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x00800186      0x29f test_identi_ca.o
+ .bss           0x00800425       0x37 ip_arp_udp_tcp.o
+ .bss           0x0080045c        0x3 enc28j60.o
+ .bss           0x0080045f        0x0 websrv_help_functions.o
+ .bss           0x0080045f        0x7 dnslkup.o
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(atoi.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalnum.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isalpha.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(isblank.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strcat.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strncmp.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(mul10.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .bss           0x00800466        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800466        0x2 ip_arp_udp_tcp.o
+                0x00800466                client_arp_result_callback
+                0x00800468                PROVIDE (__bss_end, .)
+                0x000025da                __data_load_start = LOADADDR (.data)
+                0x00002660                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800468        0x0
+                0x00800468                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800468                PROVIDE (__noinit_end, .)
+                0x00800468                _end = .
+                0x00800468                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 test_identi_ca.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 ip_arp_udp_tcp.o
+ .comment       0x00000000       0x12 enc28j60.o
+ .comment       0x00000000       0x12 websrv_help_functions.o
+ .comment       0x00000000       0x12 dnslkup.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x148
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 test_identi_ca.o
+ .debug_aranges
+                0x00000028       0x20 ip_arp_udp_tcp.o
+ .debug_aranges
+                0x00000048       0x20 enc28j60.o
+ .debug_aranges
+                0x00000068       0x20 websrv_help_functions.o
+ .debug_aranges
+                0x00000088       0x20 dnslkup.o
+ .debug_aranges
+                0x000000a8       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_aranges
+                0x000000c8       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x000000e8       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x00000108       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .debug_aranges
+                0x00000128       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x473d
+ *(.debug_info)
+ .debug_info    0x00000000     0x10fc test_identi_ca.o
+ .debug_info    0x000010fc     0x1ee2 ip_arp_udp_tcp.o
+ .debug_info    0x00002fde      0xbfd enc28j60.o
+ .debug_info    0x00003bdb      0x47e websrv_help_functions.o
+ .debug_info    0x00004059      0x32e dnslkup.o
+ .debug_info    0x00004387       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_info    0x00004445       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_info    0x00004503       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .debug_info    0x000045c1       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .debug_info    0x0000467f       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xd7d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x375 test_identi_ca.o
+ .debug_abbrev  0x00000375      0x3fa ip_arp_udp_tcp.o
+ .debug_abbrev  0x0000076f      0x212 enc28j60.o
+ .debug_abbrev  0x00000981      0x20e websrv_help_functions.o
+ .debug_abbrev  0x00000b8f      0x18a dnslkup.o
+ .debug_abbrev  0x00000d19       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_abbrev  0x00000d2d       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00000d41       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x00000d55       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .debug_abbrev  0x00000d69       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+
+.debug_line     0x00000000      0xccf
+ *(.debug_line)
+ .debug_line    0x00000000      0x2da test_identi_ca.o
+ .debug_line    0x000002da      0x3a1 ip_arp_udp_tcp.o
+ .debug_line    0x0000067b      0x1d9 enc28j60.o
+ .debug_line    0x00000854      0x15f websrv_help_functions.o
+ .debug_line    0x000009b3      0x11e dnslkup.o
+ .debug_line    0x00000ad1       0x58 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_line    0x00000b29       0x61 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_line    0x00000b8a       0x5e /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .debug_line    0x00000be8       0x74 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_prologue.o)
+ .debug_line    0x00000c5c       0x73 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_epilogue.o)
+
+.debug_frame    0x00000000      0x8bc
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x128 test_identi_ca.o
+ .debug_frame   0x00000128      0x440 ip_arp_udp_tcp.o
+ .debug_frame   0x00000568      0x188 enc28j60.o
+ .debug_frame   0x000006f0      0x12c websrv_help_functions.o
+ .debug_frame   0x0000081c       0xa0 dnslkup.o
+
+.debug_str      0x00000000      0xc95
+ *(.debug_str)
+ .debug_str     0x00000000      0x480 test_identi_ca.o
+                                0x4ce (size before relaxing)
+ .debug_str     0x00000480      0x5ee ip_arp_udp_tcp.o
+                                0x8e6 (size before relaxing)
+ .debug_str     0x00000a6e       0xf6 enc28j60.o
+                                0x2ba (size before relaxing)
+ .debug_str     0x00000b64       0x84 websrv_help_functions.o
+                                0x21b (size before relaxing)
+ .debug_str     0x00000be8       0xad dnslkup.o
+                                0x27e (size before relaxing)
+
+.debug_loc      0x00000000     0x3dc6
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x7ca test_identi_ca.o
+ .debug_loc     0x000007ca     0x21e1 ip_arp_udp_tcp.o
+ .debug_loc     0x000029ab      0x5f9 enc28j60.o
+ .debug_loc     0x00002fa4      0x8e2 websrv_help_functions.o
+ .debug_loc     0x00003886      0x540 dnslkup.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000       0x30
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x18 test_identi_ca.o
+ .debug_ranges  0x00000018       0x18 enc28j60.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(test_identi_ca.elf elf32-avr)
+LOAD linker stubs
