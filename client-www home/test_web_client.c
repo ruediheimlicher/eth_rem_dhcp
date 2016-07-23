@@ -46,7 +46,8 @@ static uint8_t myip[4] = {192,168,1,209};
 //
 // The name of the virtual host which you want to 
 // contact at websrvip (hostname of the first portion of the URL):
-#define WEBSERVER_VHOST "www.ruediheimlicher.ch"
+#define WEBSERVER_VHOST "tuxgraphics.org"
+//#define WEBSERVER_VHOST "www.ruediheimlicher.ch"
 // listen port for tcp/www:
 #define MYWWWPORT 80
 
@@ -329,8 +330,8 @@ int main(void){
                  web_client_attempts++;
                  mk_net_str(str,pingsrcip,4,'.',10);
                  urlencode(str,urlvarstr);
-                 //client_browse_url(PSTR("/cgi-bin/upld?pw=sec&pingIP="),urlvarstr,PSTR(WEBSERVER_VHOST),&browserresult_callback,otherside_www_ip,gwmac);
-                 client_browse_url(PSTR("/cgi-bin/hello.pl"),urlvarstr,PSTR(WEBSERVER_VHOST),&browserresult_callback,otherside_www_ip,gwmac);
+                 client_browse_url(PSTR("/cgi-bin/upld?pw=sec&pingIP="),urlvarstr,PSTR(WEBSERVER_VHOST),&browserresult_callback,otherside_www_ip,gwmac);
+                 //client_browse_url(PSTR("/cgi-bin/hello.pl"),urlvarstr,PSTR(WEBSERVER_VHOST),&browserresult_callback,otherside_www_ip,gwmac);
                  
               }
               // reset after a delay to prevent permanent bouncing
