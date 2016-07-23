@@ -33,8 +33,8 @@
 // two devices:
 static uint8_t mymac[6] = {0x54,0x55,0x58,0x10,0x00,0x29};
 // how did I get the mac addr? Translate the first 3 numbers into ascii is: TUX
-static uint8_t myip[4] = {10,0,0,29};
-//static uint8_t myip[4] = {192,168,255,100};
+//static uint8_t myip[4] = {10,0,0,29};
+static uint8_t myip[4] = {192,168,1,209};
 static char password[]="secret"; // the password string (only a-z,0-9,_ characters)
 // -- no need to change anything below this line
 //
