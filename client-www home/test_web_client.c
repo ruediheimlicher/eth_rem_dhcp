@@ -46,8 +46,8 @@ static uint8_t myip[4] = {192,168,1,209};
 //
 // The name of the virtual host which you want to 
 // contact at websrvip (hostname of the first portion of the URL):
-#define WEBSERVER_VHOST "tuxgraphics.org"
-//#define WEBSERVER_VHOST "www.ruediheimlicher.ch"
+//#define WEBSERVER_VHOST "tuxgraphics.org"
+#define WEBSERVER_VHOST "www.ruediheimlicher.ch"
 // listen port for tcp/www:
 #define MYWWWPORT 80
 
