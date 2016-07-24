@@ -340,7 +340,8 @@ int main(void){
                  get_mac_with_arp(gwip,TRANS_NUM_GWMAC,&arpresolver_result_callback);
                  gw_arp_state=1;
               }
-              if (get_mac_with_arp_wait()==0 && gw_arp_state==1){
+              if (get_mac_with_arp_wait()==0 && gw_arp_state==1)
+              {
                  // done we have the mac address of the GW
                  gw_arp_state=2;
               }
@@ -366,6 +367,7 @@ int main(void){
                  // we have a result of dns-lookup
                  continue;
               }
+              
               //----------
               if (start_web_client==1)
               {
