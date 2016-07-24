@@ -222,7 +222,8 @@ int main(void){
                 buf[BUFFER_SIZE]='\0';
                 dat_p=packetloop_arp_icmp_tcp(buf,plen);
 
-                if(dat_p==0){
+                if(dat_p==0)
+                {
                         // check if udp otherwise continue
                         goto UDP;
                 }
