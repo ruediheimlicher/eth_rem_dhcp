@@ -97,7 +97,8 @@ static int8_t dns_state=0;
 // 
 
 // timer interrupt, called automatically every second
-ISR(TIMER1_COMPA_vect){
+ISR(TIMER1_COMPA_vect)
+{
         sec++;
         gsec++;
         if (sec>5){
